@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-slate-200 m-0">
+      <h1 class="mb-8 text-center pt-5 text-blue-400 font-bold text-2xl">
+        Foreign Exchange Gadget
+      </h1>
+      <nav class="flex justify-center space-x-4 bg-slate-200 flex-wrap">
+        <a href="/dashboard" class="btn"
+          ><img src="/src/photo/taiwan.png" alt="" />
+          <h2>NT$</h2></a
+        >
+        <a href="#" class="btn">
+          <img src="/src/photo/jp.png" alt="" />
+          <h2>Yen ¥</h2></a
+        >
+        <a href="/projects" class="btn"
+          ><img src="/src/photo/us.png" alt="" />
+          <h2>US$</h2></a
+        >
+        <a href="/reports" class="btn"
+          ><img src="/src/photo/eu.png" alt="" />
+          <h2>Euro€</h2></a
+        >
+        <a href="/reports" class="btn"
+          ><img src="/src/photo/uk.png" alt="" />
+          <h2>Pound £</h2></a
+        >
+        <a href="/reports" class="btn"
+          ><img src="/src/photo/china.png" alt="" />
+          <h2>RMB￥</h2></a
+        >
+        <a href="/reports" class="btn"
+          ><img src="/src/photo/sw.png" alt="" />
+          <h2>Swiss</h2></a
+        >
+      </nav>
+    </div>
+    <div>
+      <h3 class="text-center my-5">時間更新</h3>
+      <h3 class="text-center mt-2">請輸入基準貨幣三位英文代碼(如：TWD)</h3>
+
+      <div class="flex items-center py-2 px-40 justify-center">
+        <input
+          class="appearance-none bg-transparent w-20 text-gray-700 mr-3 py-1 px-2 leading-tight border-b-4"
+          type="text"
+          placeholder="代號"
+          aria-label="Full name"
+        />
+        <button
+          class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+          type="button"
+        >
+          Enter
+        </button>
+      </div>
+    </div>
+    <table class="table-auto min-w-full mt-16">
+      <thead>
+        <tr>
+          <th class="w-1/3 px-4 py-2">貨幣名稱</th>
+          <th class="w-1/3 px-4 py-2">1 基準貨幣 = ?</th>
+          <th class="w-1/3 px-4 py-2">1 目標貨幣 = ?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">AUD 澳幣</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">CAD 加拿大幣</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">CHF 瑞士法郎</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">CNY 人民幣</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">CZK 捷克克朗</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">EUR 歐元</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">GBP 英鎊</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">HKD 港幣</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">JPY 日圓</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">KRW 韓圓</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">SGD 新加坡幣</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">THB 泰銖</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+        <tr class="hover:bg-blue-300">
+          <td class="border px-4 py-2">TWD 新台幣</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">2</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
